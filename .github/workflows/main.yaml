@@ -1,7 +1,7 @@
 name: workflow
 
 on:
-  commit:
+  pull:
     branches:
       - main
     paths-ignore:
